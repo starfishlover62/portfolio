@@ -1,0 +1,271 @@
+body {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.section-header {
+    display: flex;
+    color:purple;
+    max-width: 1200px;
+    max-height: 64px;
+    vertical-align: middle;
+}
+.section-header img{
+    margin: auto 10px auto 10px;
+    max-width: 48px;
+    height:100%
+}
+
+.background-flair {
+    background-color: white;
+}
+
+.navigation-head {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto 10px auto;
+    height: 140px;
+    max-width:1200px;
+}
+
+.navigation-head ul {
+    margin: auto 0px auto auto;
+}
+
+@media screen and (min-width: 600px) {
+    .navigation-menu{
+        display: flex;
+        flex-direction: row;
+        margin: auto 0px auto auto;
+        max-width:720px;
+        vertical-align:middle;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-menu{
+        display: flex;
+        flex-direction: column;
+        margin: auto 0px auto auto;
+        max-width:720px;
+        vertical-align:middle;
+    }
+}
+
+.site-logo {
+    max-width: 480px;
+    display:inline-block;
+    margin:auto 10px auto 10px;
+}
+
+.site-logo h1 {
+    color:#8331FA;
+}
+
+.site-logo a:link {
+    text-decoration: none;
+}
+
+.menu-item {
+    color:black;
+}
+
+@media screen and (min-width: 600px) {
+    .menu-item li{
+        display:inline;
+        font-size:18px;
+        margin:auto 10px auto 10px;
+        /* color:black; */
+        /* margin-right:10px; */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-item li{
+        display:inline;
+        font-size:18px;
+        margin:auto 10px auto 0px;
+        /* color:black; */
+        /* margin-right:10px; */
+    }
+}
+
+.menu-item:link {
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color:rgb(230, 211, 185);
+}
+
+#current-page {
+    color: green;
+    box-shadow: 0 5px 0 0;
+}
+
+#head-rule {
+    color:blue;
+    width:95%;
+    margin: 5px auto 20px auto;
+}
+
+.breadcrumbs {
+    max-width: 1200px;
+    margin:auto;
+}
+.breadcrumbs a{
+    color: rgb(100, 100, 100);
+}
+
+.breadcrumbs p{
+    display:inline;
+    color: rgb(100, 100, 100);
+}
+.breadcrumbs a:link {
+    text-decoration: none;
+}
+.breadcrumbs a:visited {
+    text-decoration: none;
+}
+
+.projects {
+    opacity: 1.0;
+    margin: auto;
+    /* max-height: 450px; */
+    max-width:1200px;
+}
+
+@media screen and (max-width: 1259px){
+    .projects {
+        max-width: 95%;
+    }
+}
+
+.projects h2 {
+    /* text-align: center; */
+    display: inline;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .projects-grid {
+        margin: auto 50px;
+        display:grid;
+        grid-auto-flow: column;
+        column-gap:25px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects-grid {
+        display:grid;
+        column-gap:25px;
+        row-gap:25px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+.projects-grid a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.projects-grid a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+.projects-grid-item {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.projects-grid-item img{
+    width:100%;
+}
+.projects-grid-item img:hover{
+    opacity:0.8;
+}
+
+.projects-grid-item div{
+    box-shadow: 0px 10px 10px #d1d0d0;
+    min-height: 80px;
+}
+
+.projects-grid-item p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projects-grid-item p:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:red;
+}
+
+
+.skills h1 {
+    text-align: center;
+}
+
+.content{
+    margin: 10px auto 10px auto;
+    max-width:1200px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.horizontal-list{
+    margin: 10px auto 10px auto;
+    vertical-align: middle;
+    max-width: 400px;
+}
+
+.horizontal-list li::marker {
+    color:blue;
+}
+
+.horizontal-list ul{
+    flex:50%;
+    margin: auto;
+}
+
+.asciinema-player {
+    max-width: 900px;
+    max-height: 900px;
+    display: block;
+    margin:auto;
+}
+
+.more-work button {
+    margin: 10px 20px 10px auto;
+    background-color: 128;
+    border: solid;
+    border-color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.more-work button:hover {
+    opacity: 0.8;
+    color: red;
+}
+
+.more-work {
+    text-decoration: none;
+    color:black;
+}
+
+.indented {
+    margin-left:30px;
+}
