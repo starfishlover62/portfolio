@@ -3,6 +3,7 @@ body {
     margin-right:0px;
 }
 
+/* NAVIGATION HEADER */
 .section-header {
     display: flex;
     color:purple;
@@ -91,6 +92,7 @@ body {
     margin: 5px auto 20px auto;
 }
 
+/* BREADCRUMBS */
 .breadcrumbs {
     max-width: 1200px;
     margin:auto;
@@ -115,6 +117,7 @@ body {
     text-decoration: none;
 }
 
+/* PROJECTS GRID */
 .projects {
     opacity: 1.0;
     margin: auto;
@@ -213,6 +216,7 @@ body {
     margin: auto;
 }
 
+/* FOCAL IMAGE FOR PROJECT PAGE */
 .focal-image {
     display:flex;
     max-width: 75%;
@@ -221,6 +225,7 @@ body {
     margin:auto;
 }
 
+/* BUTTON THAT CHANGES FROM BLACK TO RED */
 .more-work button {
     margin: 10px 20px 10px auto;
     padding: 10px 16px;
@@ -253,7 +258,7 @@ body {
     list-style-type:upper-roman;
 }
 
-
+/* SCROLLABLE README BOX */
 .readme {
     display:flex;
     flex-direction:column;
@@ -275,6 +280,7 @@ code {
     border-radius: 3px;
 }
 
+/* SETTINGS FOR MOBILE LAYOUT */
 @media screen and (max-width: 600px) {
     .menu-item {
         margin:auto 10px 0.6em 0px;
