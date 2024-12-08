@@ -1,3 +1,4 @@
+// Changes the title of the page when the user is not focused on it.
 originalTitle = document.title
 
 focused = function () {
